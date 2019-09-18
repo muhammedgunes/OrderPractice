@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">OrderPractice</string>
+    <string name="rememberme">Beni Hatırla</string>
+    <string name="login">Giriş</string>
+    <string name="hint_username">Kullanıcı Adı</string>
+    <string name="hint_password">Şifre</string>
 </resources>

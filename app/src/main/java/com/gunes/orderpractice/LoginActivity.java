@@ -59,6 +59,7 @@ public class LoginActivity extends AppCompatActivity {
             }
 
             startActivity(new Intent(this, MainActivity.class));
+            finish();
         } else {
             Toast.makeText(this, "Kullanıcı Bilgileri Hatalı.", Toast.LENGTH_SHORT).show();
         }

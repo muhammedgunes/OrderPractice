@@ -8,6 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- Base application theme. -->
+    <style name="MainScreenTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="android:height">@dimen/action_bar_height</item>
+    </style>
+
 
     <style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="boxStrokeColor">@android:color/darker_gray</item>
